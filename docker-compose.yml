@@ -1,0 +1,25 @@
+version: "3"
+services:
+  hub:
+    image: selenium/hub:3.141.59
+    ports:
+      - 4445:4444
+  chrome:
+    image: selenium/node-chrome-debug:3.141.59
+    depends_on:
+      - hub
+    environment:
+      - HUB_HOST=hub
+    ports:
+      - 5900:5900
+  cicd-demo_1:
+    image: ci-cd-demo:latest
+    depends_on:
+      - chrome
+    environment:
+      - BROWSER=chrome
+      - HUB_HOST=hub
+      - MODULE=ci-cd-testng.xml
+      - TAG=test
+    volumes:
+      - C:\Users\tusharso\results\ci-cd\cucumber-report-test:/usr/share/ci-cd-demo/target/cucumber-html-report

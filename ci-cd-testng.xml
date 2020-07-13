@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="registration-module" verbose="10" configfailurepolicy="skip">
+
+    <test name="ci-cd-demo">
+        <classes>
+            <class name="runner.TestRunner" />
+        </classes>
+    </test>
+
+</suite>
