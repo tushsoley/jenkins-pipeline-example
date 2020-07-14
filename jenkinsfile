@@ -1,4 +1,3 @@
- def dimage
 pipeline {
   agent any
   stages{
@@ -10,15 +9,18 @@ pipeline {
       }
       stage('build'){
        steps{
-       script{
-        dimage = docker.build("ci-cd-demo")
-       }
+        script{
+            def dimage = docker.build("ci-cd-demo")
+        }
          echo "image build"
        }
       }
       stage('push'){
       steps{
-      dimage.push('latest')
+        script{
+            dimage.push('latest')
+        }
+        echo "push docker image"
       }
       }
   }
