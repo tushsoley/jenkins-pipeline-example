@@ -16,6 +16,11 @@ pipeline {
          echo "image build"
        }
       }
+      stage('push'){
+      steps{
+      dimage.push('latest')
+      }
+      }
   }
 
  }
