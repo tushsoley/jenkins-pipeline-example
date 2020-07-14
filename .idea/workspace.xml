@@ -2,134 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39fafec1-f159-4b65-a89d-d80555db7618" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ci-cd-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ci-cd-tests.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ci-cd.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PageObjects/SamplePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/libs/BasePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/libs/CommonMethods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/libs/DriverFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/libs/Scenarios.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/activation-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/animal-sniffer-annotations-1.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/bsh-2.0b6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/btf-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/byte-buddy-1.8.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/checker-compat-qual-2.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/commons-codec-1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/commons-exec-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/commons-lang3-3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/cucumber-core-4.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/cucumber-expressions-6.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/cucumber-html-0.2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/cucumber-java-4.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/cucumber-jvm-4.3.0.pom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/cucumber-jvm-deps-1.0.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/cucumber-picocontainer-4.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/cucumber-testng-4.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/datatable-1.1.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/datatable-dependencies-1.1.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/error_prone_annotations-2.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/gherkin-4.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/gherkin-jvm-deps-1.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/groovy-2.5.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/groovy-json-2.5.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/groovy-xml-2.5.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/guava-25.0-jre.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/hamcrest-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/hamcrest-all-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/hamcrest-core-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/hamcrest-library-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/httpclient-4.5.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/httpcore-4.4.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/httpmime-4.5.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/j2objc-annotations-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/jackson-annotations-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/jackson-core-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/jackson-coreutils-1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/jackson-databind-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/jaxb-api-2.2.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/jaxb-osgi-2.2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/jcommander-1.72.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/joda-time-2.9.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/jopt-simple-5.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/json-path-4.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/json-schema-core-1.2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/json-schema-validator-2.2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/json-schema-validator-4.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/jsr305-1.3.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/libphonenumber-8.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/mailapi-1.4.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/msg-simple-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/okhttp-3.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/okio-1.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/org.apache.sling.javax.activation-0.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/picocontainer-2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/rest-assured-4.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/rest-assured-common-4.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/rhino-1.7.7.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/selenium-api-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/selenium-chrome-driver-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/selenium-edge-driver-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/selenium-firefox-driver-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/selenium-ie-driver-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/selenium-java-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/selenium-opera-driver-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/selenium-remote-driver-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/selenium-safari-driver-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/selenium-support-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/tag-expressions-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/tagsoup-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/testng-6.14.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/uri-template-0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/libs/xml-path-4.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/stepDefinitions/Hooks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/stepDefinitions/MakeClaimSteps.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-runner.TestRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/registration-module/ci-cd-demo.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/registration-module/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/registration-module/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/registration-module/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/registration-module/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/registration-module/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/registration-module/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/registration-module/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/registration-module/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/registration-module/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/registration-module/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/registration-module/ci-cd-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/registration-module/ci-cd-demo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/registration-module/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinsfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -189,29 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/healthcheck.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="272">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -519,7 +376,63 @@
       <option name="project" value="LOCAL" />
       <updated>1594612997507</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="jenkinsfile - added&#10;stage build added">
+      <created>1594678873810</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594678873810</updated>
+    </task>
+    <task id="LOCAL-00003" summary="jenkinsfile - added&#10;stage build added">
+      <created>1594679056145</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594679056145</updated>
+    </task>
+    <task id="LOCAL-00004" summary="jenkinsfile - docker image build step">
+      <created>1594679736113</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594679736113</updated>
+    </task>
+    <task id="LOCAL-00005" summary="jenkinsfile - fix for variable">
+      <created>1594686466193</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594686466193</updated>
+    </task>
+    <task id="LOCAL-00006" summary="jenkinsfile - fix for variable">
+      <created>1594686833076</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594686833076</updated>
+    </task>
+    <task id="LOCAL-00007" summary="jenkinsfile - added docker push">
+      <created>1594687116702</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594687116702</updated>
+    </task>
+    <task id="LOCAL-00008" summary="jenkinsfile - added docker push -1">
+      <created>1594687364161</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594687364161</updated>
+    </task>
+    <task id="LOCAL-00009" summary="jenkinsfile - added docker push -2">
+      <created>1594687606902</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594687606902</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -589,7 +502,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="jenkinsfile - added&#10;stage build added" />
+    <MESSAGE value="jenkinsfile - docker image build step" />
+    <MESSAGE value="jenkinsfile - fix for variable" />
+    <MESSAGE value="jenkinsfile - added docker push" />
+    <MESSAGE value="jenkinsfile - added docker push -1" />
+    <MESSAGE value="jenkinsfile - added docker push -2" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkinsfile - added docker push -2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -723,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/CryptopiaTest.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -776,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="272">
           <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
@@ -788,10 +700,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="272">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
         </state>
       </provider>
     </entry>

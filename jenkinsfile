@@ -11,7 +11,7 @@ pipeline {
        steps{
         script{
             def dimage = docker.build("ci-cd-demo")
-            dimage.push('latest')
+            //dimage.push('latest')
         }
          echo "image build"
        }
@@ -23,6 +23,11 @@ pipeline {
         }
         echo "push docker image"
       }
+      }
+      stage('Test'){
+        steps{
+            sh 'docker-compose up'
+        }
       }
   }
 
