@@ -10,7 +10,9 @@ pipeline {
       }
       stage('build'){
        steps{
-         dimage = docker.build("ci-cd-demo")
+       script{
+        dimage = docker.build("ci-cd-demo")
+       }
          echo "image build"
        }
       }
