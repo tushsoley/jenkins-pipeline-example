@@ -1,18 +1,19 @@
-pipeline{
+ def dimage
+pipeline {
   agent any
-  def dimage
   stages{
-   stage('package'){
-    steps{
-      echo "package- code"
-      sh 'mvn clean package -DskipTests'
-     }
-   }
-   stage('build'){
-    steps{
-      dimage = docker.build('ci-cd-demo')
-      echo "image build"
-    }
-   }
+    stage('package'){
+       steps{
+         echo "package- code"
+         sh 'mvn clean package -DskipTests'
+        }
+      }
+      stage('build'){
+       steps{
+         dimage = docker.build("ci-cd-demo")
+         echo "image build"
+       }
+      }
   }
+
  }
