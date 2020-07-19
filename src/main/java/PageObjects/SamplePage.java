@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class SamplePage extends BasePage {
 
-    private @FindBy(xpath = "//a[contains(@id,'LodgeClaim')]")
+    private @FindBy(xpath = "//a[contains(@href,'LodgeClaim')]")
     WebElement linkMakeClaim;
 
     private @FindBy(xpath = "//input[contains(@name,'RegisteredEmailAddress')]")
